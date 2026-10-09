@@ -5,7 +5,6 @@
 <!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
 <title>Product</title>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<link rel="stylesheet" href="mm_travel2.css" type="text/css" />
 <script language="JavaScript" type="text/javascript">
 //--------------- LOCALIZEABLE GLOBALS ---------------
 var d=new Date();
@@ -14,16 +13,22 @@ var monthname=new Array("January","February","March","April","May","June","July"
 var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 //---------------   END LOCALIZEABLE   ---------------
 </script>
+<style type="text/css">
+<!--
+.STYLE1 {color: #FFFF00}
+.STYLE3 {color: #FFFF00; font-size: 24px; }
+-->
+</style>
 </head>
 <body bgcolor="#C0DFFD">
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr bgcolor="#3366CC">
     <td width="382" colspan="2" rowspan="2" nowrap="nowrap"><img src="mm_travel_photo.jpg" alt="Header image" width="382" height="127" border="0" /></td>
-    <td width="378" height="63" id="logo" valign="bottom" align="center" nowrap="nowrap">Hanwencai·nature</td>
+    <td width="378" height="63" align="center" valign="bottom" nowrap="nowrap" class="STYLE3" id="logo">Hanwencai &amp; nature</td>
     <td width="100%">&nbsp;</td>
   </tr>
   <tr bgcolor="#3366CC">
-    <td height="64" id="tagline" valign="top" align="center">pagespace internationnal</td>
+    <td height="64" id="tagline" valign="top" align="center"><span class="STYLE1">pagespace internationnal</span></td>
 	<td width="100%">&nbsp;</td>
   </tr>
   <tr>
@@ -32,7 +37,8 @@ var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear()
 
   <tr bgcolor="#CCFF99">
   	<td>&nbsp;</td>
-  	<td colspan="3" id="dateformat" height="25"><a href="javascript:;">HOME</a> :: <script language="JavaScript" type="text/javascript">
+  	<td colspan="3" id="dateformat" height="25"><a href="javascript:;">Date</a>: 
+    <script language="JavaScript" type="text/javascript">
       document.write(TODAY);	</script>	</td>
   </tr>
  <tr>
@@ -44,7 +50,7 @@ var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear()
     &nbsp;<br />
     <table border="0" cellspacing="0" cellpadding="2" width="610">
         <tr>
-          <td class="pageName" colspan="3">Here is Hanwencai’Page<br />
+          <td class="pageName" colspan="3">Here is Hanwencai'Page<br />
 		  &nbsp;<br />		  </td>
         </tr>
         <tr>
@@ -54,8 +60,10 @@ var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear()
 		  <br />          </td>
         </tr>
         <tr>
-          <td valign="top" class="bodyText">Chinese veterinary professionals.
-		<p><strong>[officialside：<a href="http://hanwencai.cn/">http://hanwencai.cn</a>]</strong></p></td>
+          <td valign="top" class="bodyText"><p>Chinese veterinary professionals.
+        </p>
+            <p>Guangdong锛孋hina.  </p>
+            <p><strong>[Officialside:<a href="http://hanwencai.cn/">http://hanwencai.cn</a>]</strong></p></td>
         </tr>
       </table>	  </td>
       <td width="100%">&nbsp;</td>
